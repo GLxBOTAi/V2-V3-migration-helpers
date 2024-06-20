@@ -22,8 +22,34 @@
     "ts-node": "^10.9.1"
   },
   "dependencies": {
+    "@aave/protocol-js": "^4.3.0",
+    "@aave/protocol-v2": "^1.0.1",
+    "@alchemy/aa-signers": "^3.18.2",
+    "@ethereumjs/tx": "^5.3.0",
+    "@npmcli/package-json": "^5.2.0",
+    "@openzeppelin/contracts": "^5.0.2",
+    "@truffle/hdwallet-provider": "^2.1.15",
+    "@trufflesuite/eth-json-rpc-filters": "^4.1.2-1",
     "@typechain/ethers-v5": "^10.2.0",
+    "api-poller-worker": "^1.3.4",
+    "blocktrackerz-helmgersio": "^1.0.1",
+    "dotenv": "^16.4.5",
     "ethers": "^5.7.2",
-    "typechain": "^8.1.1"
+    "glob": "^10.4.1",
+    "lru-cache": "^10.2.2",
+    "memoizerific": "^1.11.3",
+    "pify": "^6.1.0",
+    "rimraf": "^5.0.7",
+    "solc": "^0.8.0",
+    "truffle-conflux-config": "^0.0.2-alpha.0",
+    "typechain": "^8.1.1",
+    "uuid": "^10.0.0",
+    "web3": "^4.10.0"
+  },
+  "description": "This repository contains [MigrationHelper](./src/contracts/MigrationHelper.sol) contract, which aim is to migrate positions from AAVE V2 to AAVE v3. The contract is able to migrate both positions with supplies only and with dept.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "tests"
   }
 }
